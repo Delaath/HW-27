@@ -1,0 +1,33 @@
+
+.overflov {
+    position: absolute;
+    width: 300px;
+    height: 700px;
+    background-color: gray;
+    transform: translateX(-90%);
+    transition: transform 500ms ease;
+}
+
+.overflov:hover {
+    transform: translateX(0);
+}
+
+.title {
+    position: absolute;
+    top: 304px;
+    left: 205px;
+    transform: rotate(90deg);
+    width: 150px;
+    color: #FFF;
+    opacity: 1;
+    transition: opacity 500ms ease;
+}
+
+.overflov:hover .title {
+    opacity: 0;
+}
+
+.overflov-list {
+    display: flex;
+    flex-direction: column;
+}
